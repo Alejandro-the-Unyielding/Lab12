@@ -35,7 +35,7 @@ public class GUI extends JFrame{
 		});
 		final JButton ok = new JButton("Print");
 		this.getContentPane().add(ok);
-		ok.addActionListener(e -> System.out.println(logics.result()));
+		ok.addActionListener(_ -> System.out.println(logics.result()));
 		
 		this.setVisible(true);
 	}
