@@ -17,6 +17,6 @@ public class Test {
      */
 
     public static void main(String[] args) {
-        new GUI(4);
+        new GUI(6);
     }
 }
